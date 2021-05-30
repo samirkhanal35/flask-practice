@@ -2,6 +2,8 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy()
+# engine = db.create_engine('sqlite:///foo.db')
+# metadata = db.MetaData()
 
 
 def create_app():
